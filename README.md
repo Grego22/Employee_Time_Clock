@@ -16,3 +16,6 @@
 
 ## Template
 - Bootstrap
+
+
+<!-- Note, added test email to console, six password minimum  -->
