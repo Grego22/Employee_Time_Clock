@@ -20,6 +20,7 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+
 gem 'devise'
 
 # Use ActiveModel has_secure_password
@@ -61,3 +62,5 @@ gem 'bootstrap-social-rails'
 gem 'font-awesome-rails'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'turbolinks', '~> 5.0.0'
+gem 'coffee-rails'
