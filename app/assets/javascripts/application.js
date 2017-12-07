@@ -13,3 +13,4 @@
 //= require rails-ujs
 
 @import 'jquery';@import 'jquery_ujs';
+
