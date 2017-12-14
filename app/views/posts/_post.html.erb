@@ -14,4 +14,8 @@
 	<td>
 		<%= link_to 'Edit', edit_post_path(post), id: "edit_#{post.id}" %>
 	</td>
+	<td>
+		<%= link_to 'Delete', post_path(post), id: "delete_post_#{@post.id}_from_nav"%>
+		<!-- using this path because in rake routes, there is not path to it -->
+	</td>
 </tr>
