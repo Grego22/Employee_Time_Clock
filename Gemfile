@@ -65,3 +65,4 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'turbolinks', '~> 5.0.0'
 gem 'coffee-rails'
+gem "gritter", "1.2.0"
