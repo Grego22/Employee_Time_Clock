@@ -42,8 +42,9 @@ class PostsController < ApplicationController
     private
 
     def post_params
-        params.require(:post).permit(:date, :rationale)
+        params.require(:post).permit(:date, :rationale, :status)
     end
+    #strong params secrutiy
 
     def set_post
         @post = Post.find(params[:id])

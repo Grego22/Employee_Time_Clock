@@ -14,12 +14,10 @@ describe 'edit' do
     it 'has a status that can be edited on the form' do
         visit edit_post_path(@post)
 
-        check 'id'
-
-        expect(@post.status).to eq('approved')
-
+        choose('post_status_approved')
+        click_on "Save"
+        expect(@post.reload.status).to eq('approved')
 
     end
-
   end 
 end
