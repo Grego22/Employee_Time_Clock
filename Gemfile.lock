@@ -265,7 +265,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  administrate
+  administrate (~> 0.8.1)
   awesome_print
   bootstrap-generators!
   bootstrap-social-rails
