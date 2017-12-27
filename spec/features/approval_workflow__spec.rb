@@ -9,13 +9,13 @@ describe 'navigate' do
 describe 'edit' do
     before do
         @post = FactoryBot.create(:post)
+        visit edit_post_path(@post)
     end
 
     it 'has a status that can be edited on the form' do
-        visit edit_post_path(@post)
-
         choose('post_status_approved')
         click_on "Save"
+
         expect(@post.reload.status).to eq('approved')
     end
 
@@ -24,6 +24,16 @@ describe 'edit' do
 
     xit 'cannot be edited by a non admin' do
     ## whenever you put an x in front it will put a pending when running rspec    
+    ## skips "temporarily skips with xit"
+        logout(:user)
+        user = FactoryBot.create(:user)
+        login_as(@admin_user, :scope => :user)
+        #got from capybara documentation
+
+        visit edit_post_path(@post)
+
+        expect(page).to_not have_content('Approved')
+
     end
   end 
 end
