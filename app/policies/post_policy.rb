@@ -1,6 +1,8 @@
 class PostPolicy < ApplicationPolicy
     def update?
-        record.user_id == user.id
+        # Case 1 = User of record
+        # Case 2 = Admin User
+        record.user_id == user.id || user.type == 'AdminUser'
         ## only the user that created the post should edit it
       end
     end
