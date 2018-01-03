@@ -83,7 +83,12 @@ describe 'navigate' do
     end
 
     it 'can be edited' do
-      visit edit_poast_path(@post)
+      test_user = User.create(first_name: "asdf", last_name: "asdf", email: "asdfasdf@asdf.com", password: "asdfasdf", password_confirmation: "asdfasdf" )
+      visit edit_post_path(@post)
+      test_post = Post.create(date: Date.today, rationale: "asdf")
+
+      logout(:edit)
+      login_as(@non_authorized_user, :scope => :user)
 
       fill_in 'post[date]', with: Date.today
       fill_in 'post[rationale]', with: "Edited Content"
@@ -95,6 +100,10 @@ describe 'navigate' do
         logout(:edit)
         @non_authorized_user = FactoryBot.create(:non_authorized_user)
         login_as(@non_authorized_user, :scope => :user)
+
+        visit edit_post_path
+
+        expect(current_page).to eq(root_path)
     end
   end
 end
