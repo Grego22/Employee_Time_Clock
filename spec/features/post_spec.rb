@@ -32,7 +32,11 @@ describe 'navigate' do
 
       non_authorized_user = User.create(first_name: 'Non', last_name: 'Authorized', email: nonauth@example.com,
                                                                     password: "asdfasdf",  password: "asdfasdf")
-      post_from_other_user = Post.create(date: Date.today, rationale: "asdf")
+      post_from_other_user = Post.create(date: Date.today, rationale: "This post should not be seen", user_id: other_user.id)
+
+      visit posts_path
+
+      expect(page).to_not have_content(/This should not be seen/)
       byebug
 
     end
@@ -50,6 +54,7 @@ describe 'navigate' do
   describe 'delete' do
     it 'can be deleted' do
       @post = FactoryBot.create(:post)
+      @post.user_id = user.id
       visit posts_path
 
       click_link("delete_post_#{@post.id}_from_index")
