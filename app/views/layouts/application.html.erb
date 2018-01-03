@@ -51,6 +51,13 @@
     <%= yield %>
   </div>
 
-  <%= js add_gritter(flash[:notice], title: "Overtime Notification", sticky: false)%>
+  <% if flash[:alert] %>
+    <%= js add_gritter(flash[:alert], title: "Overtime Notification Alert", sticky: false)%>
+  <% elsif flash[:error] %>
+    <%= js add_gritter(flash[:error], title: "Overtime Notification Error", sticky: false)%>
+  <% else flash[:notice] %>
+    <%= js add_gritter(flash[:notice], title: "Overtime Notification", sticky: false)%>
+  <% end %>
+
 </body>
 </html>
