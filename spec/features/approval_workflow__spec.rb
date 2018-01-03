@@ -22,7 +22,7 @@ describe 'edit' do
     it 'cand be edited by an admin' do
     end
 
-    xit 'cannot be edited by a non admin' do
+    it 'cannot be edited by a non admin' do
     ## whenever you put an x in front it will put a pending when running rspec    
     ## skips "temporarily skips with xit"
         logout(:user)
