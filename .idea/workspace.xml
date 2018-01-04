@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54adfb16-a6c9-467d-800b-85011ec59e57" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/policies/post_policy.rb" afterPath="$PROJECT_DIR$/app/policies/post_policy.rb" />
       <change beforePath="$PROJECT_DIR$/spec/features/approval_workflow__spec.rb" afterPath="$PROJECT_DIR$/spec/features/approval_workflow__spec.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -20,17 +19,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="approval_workflow__spec.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="approval_workflow__spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/features/approval_workflow__spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="660">
+              <caret line="44" column="32" lean-forward="false" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_policy.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post_policy.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/policies/post_policy.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -62,8 +61,8 @@
         <option value="$PROJECT_DIR$/app/models/post.rb" />
         <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
         <option value="$PROJECT_DIR$/spec/features/post_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/features/approval_workflow__spec.rb" />
         <option value="$PROJECT_DIR$/app/policies/post_policy.rb" />
+        <option value="$PROJECT_DIR$/spec/features/approval_workflow__spec.rb" />
       </list>
     </option>
   </component>
@@ -282,12 +281,12 @@
       <updated>1514999438827</updated>
       <workItem from="1514999440569" duration="2384000" />
       <workItem from="1515006730936" duration="47000" />
-      <workItem from="1515006781088" duration="6055000" />
+      <workItem from="1515006781088" duration="6232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8486000" />
+    <option name="totallyTimeSpent" value="8663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="712" y="23" width="1132" height="915" extended-state="0" />
@@ -506,7 +505,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/approval_workflow__spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/policies/post_policy.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
@@ -514,10 +513,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/policies/post_policy.rb">
+    <entry file="file://$PROJECT_DIR$/spec/features/approval_workflow__spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="660">
+          <caret line="44" column="32" lean-forward="false" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
           <folding />
         </state>
       </provider>

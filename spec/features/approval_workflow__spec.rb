@@ -42,6 +42,8 @@ describe 'edit' do
 
       @post.update(user_id: user.id, status:'approved')
 
+      visit edit_post_path(@post)
+
       expect(current_path). to eq(root_path)
 
     end
