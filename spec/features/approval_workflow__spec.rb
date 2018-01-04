@@ -1,9 +1,9 @@
-require 'rails_helaaer'
+require 'rails_helper'
 
 describe 'navigate' do
   before do
     @admin_user = FactoryBot.create(:admin_user)
-    ogin_as(@admin_user, :scope => :user)
+    login_as(@admin_user, :scope => :user)
   end
 
 describe 'edit' do
@@ -19,7 +19,7 @@ describe 'edit' do
     expect(@post.reload.status).to eq('approved')
   end
 
-  it 'cand be edited by an admin' do
+  it 'can be edited by an admin' do
   end
 
   it 'cannot be edited by a non admin' do
@@ -33,7 +33,10 @@ describe 'edit' do
     visit edit_post_path(@post)
 
     expect(page).to_not have_content('Approved')
+  end
 
-    end
+  it 'should not be editable by the post creator if status is approved'
+  end
+
   end 
 end
