@@ -22,6 +22,7 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'twilio-ruby', '~> 5.6.0'
 gem 'devise'
+gem 'dotenv-rails', groups: [:development, :test]
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
