@@ -20,7 +20,7 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-
+gem 'twilio-ruby', '~> 5.6.0'
 gem 'devise'
 
 # Use ActiveModel has_secure_password
