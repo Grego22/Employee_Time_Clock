@@ -10,3 +10,5 @@ Mr UDemy likes to put it in the LIB directory, because you can treat it like a "
 *this is best practice
 
 Spec Helper is where you can put Rspec configurations in
+
+Sandy Metz ~ "Dont try to overprepare"
