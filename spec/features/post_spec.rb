@@ -36,7 +36,8 @@ describe 'navigate' do
       post2 = FactoryBot.build_stubbed(:second_post)
 
       non_authorized_user = User.create(first_name: 'Non', last_name: 'Authorized', email: nonauth@example.com,
-                                                                    password: "asdfasdf",  password: "asdfasdf")
+                                                                    password: "asdfasdf",  password: "asdfasdf",
+                                                                    phone: "5555555")
       post_from_other_user = Post.create(date: Date.today, rationale: "This post should not be seen", user_id: other_user.id)
 
       visit posts_path

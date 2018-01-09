@@ -5,7 +5,12 @@ namespace :notification do
     # 2. Iterate over all emoployees
     # 3. Skip AdminUsers
     # 4. Send a message that has instructions and a link to log time
-    puts "I have a rake task"
+    # User.all.each do |user|
+    #   SmsTool.send_sms()
+    # No spaces or dashes in phone number
+    # exactly 10 charactewrs
+    # all characters have to be a number
+    #
   end
 
 end
