@@ -8,3 +8,5 @@ Some have put them in a model file.
 
 Mr UDemy likes to put it in the LIB directory, because you can treat it like a "gem."
 *this is best practice
+
+Spec Helper is where you can put Rspec configurations in

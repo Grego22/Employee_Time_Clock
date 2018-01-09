@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54adfb16-a6c9-467d-800b-85011ec59e57" name="Default" comment="" />
+    <list default="true" id="54adfb16-a6c9-467d-800b-85011ec59e57" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/lib/fake_sms.rb" afterPath="$PROJECT_DIR$/lib/fake_sms.rb" />
+      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
+      <change beforePath="$PROJECT_DIR$/vendor/Notes.md" afterPath="$PROJECT_DIR$/vendor/Notes.md" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -41,10 +45,10 @@
         <entry file="file://$PROJECT_DIR$/vendor/Notes.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
-                <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <first_editor relative-caret-position="165">
+                <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
                 <folding>
-                  <marker date="1515447669000" expanded="true" signature="0:69" ph="Open file =  Command +...aaa&#10;a" />
+                  <marker date="1515455683000" expanded="true" signature="0:69" ph="Open file =  Command +...aaa&#10;a" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -75,8 +79,18 @@
       <file leaf-file-name="fake_sms.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/fake_sms.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="75">
+              <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spec_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -125,10 +139,11 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/Posts.scss" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/vendor/Notes.md" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/lib/sms_tool.rb" />
+        <option value="$PROJECT_DIR$/vendor/Notes.md" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/lib/fake_sms.rb" />
       </list>
     </option>
@@ -347,12 +362,12 @@
       <workItem from="1514999440569" duration="2384000" />
       <workItem from="1515006730936" duration="47000" />
       <workItem from="1515006781088" duration="12139000" />
-      <workItem from="1515193538206" duration="1569000" />
+      <workItem from="1515193538206" duration="2066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16139000" />
+    <option name="totallyTimeSpent" value="16636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="695" y="71" width="1118" height="909" extended-state="0" />
@@ -491,7 +506,7 @@
           <first_editor relative-caret-position="30">
             <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
             <folding>
-              <marker date="1515447669000" expanded="true" signature="0:69" ph="Open file =  Command +...aaa&#10;a" />
+              <marker date="1515455683000" expanded="true" signature="0:69" ph="Open file =  Command +...aaa&#10;a" />
             </folding>
           </first_editor>
           <second_editor />
@@ -518,7 +533,7 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
             <folding>
-              <marker date="1515447669000" expanded="true" signature="0:69" ph="Open file =  Command +...aaa&#10;a" />
+              <marker date="1515455683000" expanded="true" signature="0:69" ph="Open file =  Command +...aaa&#10;a" />
             </folding>
           </first_editor>
           <second_editor />
@@ -529,13 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -687,19 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/Notes.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            <folding>
-              <marker date="1515447669000" expanded="true" signature="0:69" ph="Open file =  Command +...aaa&#10;a" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -756,10 +751,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/Notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+            <folding>
+              <marker date="1515455683000" expanded="true" signature="0:69" ph="Open file =  Command +...aaa&#10;a" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/fake_sms.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
           <folding />
         </state>
       </provider>
