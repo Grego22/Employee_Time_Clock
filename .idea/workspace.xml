@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54adfb16-a6c9-467d-800b-85011ec59e57" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/static/_pending_approval.html.erb" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/admin_homepage.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin_homepage.scss" />
-      <change beforePath="$PROJECT_DIR$/app/views/static/_admin.html.erb" afterPath="$PROJECT_DIR$/app/views/static/_admin.html.erb" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change beforePath="$PROJECT_DIR$/app/views/static/_pending_approval.html.erb" afterPath="$PROJECT_DIR$/app/views/static/_pending_approval.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -66,8 +62,8 @@
       <file leaf-file-name="_pending_approval.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/static/_pending_approval.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+            <state relative-caret-position="210">
+              <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -449,12 +445,12 @@
       <workItem from="1515006730936" duration="47000" />
       <workItem from="1515006781088" duration="12139000" />
       <workItem from="1515193538206" duration="13210000" />
-      <workItem from="1515948523006" duration="9852000" />
+      <workItem from="1515948523006" duration="10451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37632000" />
+    <option name="totallyTimeSpent" value="38231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="23" y="23" width="1657" height="954" extended-state="0" />
@@ -877,8 +873,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static/_pending_approval.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        <state relative-caret-position="210">
+          <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
           <folding />
         </state>
       </provider>
