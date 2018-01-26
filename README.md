@@ -1,6 +1,6 @@
 # Employee Overtime App
 
-## Key Requirement: Company needs documentatio nthat salaried employees had overtime during their pay period.
+## Key Requirement: Company needs documentation that salaried employees had overtime during their pay period.
 
 ## Models
 - Post -> date:date rationale:text
