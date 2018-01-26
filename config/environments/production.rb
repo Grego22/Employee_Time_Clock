@@ -27,6 +27,7 @@ Rails.application.configure do
   config.i18n.fallbacks = true
 
   config.active_support.deprecation = :notify
+  config.action_mailer.default_url_options = { :host => 'gjg-overtime.herokuapp.com' }
 
   config.log_formatter = ::Logger::Formatter.new
 
