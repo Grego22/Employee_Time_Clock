@@ -6,7 +6,7 @@ class PostPolicy < ApplicationPolicy
       ## only the user that created the post should edit it
   end
 
-  def approve
+  def approve?
     admin?
   end
 
