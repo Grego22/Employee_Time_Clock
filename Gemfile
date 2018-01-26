@@ -54,10 +54,10 @@ group :development do
   gem 'awesome_print'
   gem 'dotenv-rails'
 end
-
-group :production do
-  gem 'rails_12factor'
-end
+#
+# group :production do
+#   gem 'rails_12factor'
+# end
 
 gem 'bootstrap-generators', git: 'https://github.com/gstark/bootstrap-generators', branch: 'includes-simplified-controller-scaffold'
 gem 'bootstrap-social-rails'
