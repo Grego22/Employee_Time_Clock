@@ -18,6 +18,6 @@
 
 .byebug_history
 /.env
-/.notes.md
+.notes.md
 .idea
 .vscode
