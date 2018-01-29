@@ -44,4 +44,4 @@ puts "100 posts have been created Boss!"
 
 
 
-#seeded Heroku DB on 1/25/18
+#seeded Heroku DB on 1/25/18O
