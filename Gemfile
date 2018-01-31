@@ -71,3 +71,4 @@ gem "administrate", '~> 0.8.1'
 gem "bourbon"
 gem "pundit"
 gem 'kaminari'
+gem 'newrelic_rpm'
