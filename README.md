@@ -10,4 +10,4 @@ AdminUsers(employers), can than view the request and approve or reject it.
 
 
 ## License 
-[This project is licensed under the MIT License - see the] (docs/License.md) 
+This project is licensed under the MIT License - see the[License.md] (..docs/License.md) 
