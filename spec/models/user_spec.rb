@@ -47,5 +47,12 @@ RSpec.describe User, type: :model do
 		it 'has a full name method that combines first and last name' do
 			expect(@user.full_name).to equal("SNOW, JON")
 		end
-	end 
+  end
+  describe 'relationship between admin and employees' do
+		it "allows for admins to be associated with multiple employees" do
+			employee_1 = FactoryBotRails.create(:user)
+			employee_2 = FactoryBotRails.create(:user)
+
+		end
+	end
 end
