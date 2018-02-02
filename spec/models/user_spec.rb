@@ -52,6 +52,10 @@ RSpec.describe User, type: :model do
 		it "allows for admins to be associated with multiple employees" do
 			employee_1 = FactoryBotRails.create(:user)
 			employee_2 = FactoryBotRails.create(:user)
+      admin = FactoryBotRails.create(:admin_user)
+			Hand.create!(user_id: admin.id, hand_id: employee_1.id)
+			Hand.create!(user_id: admin.id, hand_id: employee_2.id)
+      expect(admin.hands.count). eq(2)
 
 		end
 	end
